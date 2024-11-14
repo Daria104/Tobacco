@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #aed6ff;
+}
+
+main {
+    padding: 20px;
+}
+
+.fat-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"] {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+select {
+    display: block;
+    width: 20%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #007bff; /* Kolor linku */
+}
+
+a:hover {
+    color: #0056b3; /* Kolor linku po najechaniu myszką */
+}
+
+.article-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #d9534f;
+}
+
+.article-link:hover {
+    color: #c9302c;
+}
+
+
+/* Stylizacja galerii */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
